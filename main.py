@@ -183,7 +183,7 @@ def main():
                                 "role_information": "You are an AI Nursing assistant that helps nurses with admission. Based on nurse_protocol.pdf. ALWAYS your answers should be only max 10 steps to proceed. No additional text",
                                 "strictness": 3,
                                 "top_n_documents": 5
-                            }
+                            
                         },
                                         ]
                     }
