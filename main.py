@@ -170,19 +170,11 @@ def main():
                                     "type": "api_key",
                                     "key": f"{search_key}"
                                 },
-                                "embedding_dependency": {
-                                    "type": "endpoint",
-                                    "endpoint": "https://openaiavisco.openai.azure.com/openai/deployments/text-embedding-ada-002/embeddings?api-version=2023-07-01-preview",
-                                    "authentication": {
-                                        "type": "api_key",
-                                        "key": "70eccac0e4ed42409ac26781cfff474a"
-                                    }
-                                },
-                                "query_type": "vector_simple_hybrid",
+                                "query_type": "simple",
                                 "in_scope": True,
-                                "role_information": "You are an AI nursing assistant that helps people find information about clinic history in retrieved data. ALWAYS your answers should be only a resume of the clinic history. All translated to English. No additional text",
+                                "role_information": "You are an AI Nursing assistant that helps nurses with admission. Based on nurse_protocol.pdf. ALWAYS your answers should be only max 10 steps to proceed. No additional text",
                                 "strictness": 3,
-                                "top_n_documents": 6
+                                "top_n_documents": 5
                             }
                         }]
                     }
