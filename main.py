@@ -180,9 +180,10 @@ def main():
                                 },
                                 "query_type": "vector_simple_hybrid",
                                 "in_scope": True,
-                                "role_information": "You are an AI Nursing assistant that helps nurses with admission. Based on nurse_protocol.pdf. ALWAYS your answers should be only max 10 steps to proceed. No additional text",
+                                "role_information": "You are an AI nursing assistant that helps people find information about clinic history in retrieved data. ALWAYS your answers should be only a resume of the clinic history. All translated to English. No additional text",
                                 "strictness": 3,
-                                "top_n_documents": 5 }
+                                "top_n_documents": 6
+                            }
                         }]
                     }
                 )
