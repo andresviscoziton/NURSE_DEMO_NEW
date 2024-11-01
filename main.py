@@ -129,8 +129,8 @@ def main():
         st.table([
             'What are the steps for admission?',
             'What should I do if the patient has a fever?',
-            'What are the steps for a patient with a history of hypertension?',
-            'Male, 48 Years Old, Head Injury'
+            'What are the admission procedures for a patient with a history of hypertension?',
+            'Man 55 years chest pain'
         ])
 
         consulta = st.text_input("Ask me a question regarding patient admissions:", placeholder="Enter your question here")
@@ -221,7 +221,7 @@ def main():
                         }
                     ],
                     max_tokens=800,
-                    temperature=0.11,
+                    temperature=0.5,
                     top_p=0.78,
                     frequency_penalty=0,
                     presence_penalty=0,
