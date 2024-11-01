@@ -130,7 +130,7 @@ def main():
             'What are the steps for admission?',
             'What should I do if the patient has a fever?',
             'What are the steps for a patient with a history of hypertension?',
-            'Man, 48 Years Old, Head Injury'
+            'Male, 48 Years Old, Head Injury'
         ])
 
         consulta = st.text_input("Ask me a question regarding patient admissions:", placeholder="Enter your question here")
