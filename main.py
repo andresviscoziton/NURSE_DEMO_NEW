@@ -152,7 +152,7 @@ def main():
                         }
                     ],
                     max_tokens=500,
-                    temperature=0.08,
+                    temperature=0.4,
                     top_p=0.95,
                     frequency_penalty=0,
                     presence_penalty=0,
